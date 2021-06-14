@@ -8,11 +8,37 @@ html {
 
 html {
   font-size: 10px;
-  background: #ffc600;
+  background: url("bg.png")repeat;
+  font-family: Marck Script;
+}
+
+h2 {
+  font-size:60px;
+  text-align:center;
+  padding-top: 20px;
+}
+
+.controls {
+  text-align:center;
+  margin-bottom: 50px;
+}
+
+button {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-family: 'Marck Script';
+  font-size: 20px;
+  background: #fe0f73;
+  color: white;
+}
+
+.rgb {
+color: teal;
+font-size:18px;
 }
 
 .photobooth {
-  background: white;
+  background: #ffccd8;
   max-width: 150rem;
   margin: 2rem auto;
   border-radius: 2px;
@@ -43,6 +69,7 @@ html {
 
 .strip {
   padding: 2rem;
+  background: #ffccd8;
 }
 
 .strip img {
